@@ -1,0 +1,14 @@
+-
+    name: dummy-2
+    type: cron
+    cron_expression: '0 * * * *'
+    grace_time_in_minutes: 5
+    description: ''
+    server_timezone: UTC
+-
+    name: dummy-3
+    type: cron
+    cron_expression: '0 0 * * *'
+    grace_time_in_minutes: 5
+    description: ''
+    server_timezone: UTC
