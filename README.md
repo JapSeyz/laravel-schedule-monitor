@@ -123,7 +123,7 @@ class Kernel extends ConsoleKernel
 {
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('schedule-monitor:notify-overdue')->daily();
+        $schedule->command('schedule-monitor:notify-overdue')->everyFiveMinutes();
     }
 }
 ```
